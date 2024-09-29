@@ -1,0 +1,93 @@
+.root {
+  -fx-background-color: #242526;
+}
+
+.css-label {
+  -fx-background-color: #0c3c84;
+  -fx-text-fill: white;
+  -fx-padding: 8px 16px;
+  -fx-background-radius: 5px;
+  -fx-font-size: 46px;
+  -fx-font-weight: bold;
+  -fx-margin-left: 50px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 6, 0, 0, 4);
+}
+
+.css-sidebar {
+    -fx-background-color: #373737;
+    -fx-pref-width: 250px;
+    -fx-padding: 20px;
+}
+
+.css-sidebar-item {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 15px;
+    -fx-cursor: hand;
+}
+
+.sidebar-item:hover {
+  -fx-background-color: #34495E;
+}
+
+.button {
+  -fx-background-color: transparent;
+  -fx-border-color: #494949;
+  -fx-border-width: 2px;
+  -fx-border-radius: 15px;
+  -fx-box-sizing: border-box;
+  -fx-text-fill: #dedede;
+  -fx-cursor: hand;
+  -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  -fx-font-size: 16px;
+  -fx-font-weight: 600;
+  -fx-min-height: 60px;
+  -fx-padding: 16px 24px;
+  -fx-text-alignment: center;
+  -fx-transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  -fx-width: 100%;
+}
+
+.button:disabled {
+  -fx-opacity: 0.6;
+  -fx-effect: none;
+}
+
+.button:hover {
+  -fx-background-color: #1A1A1A;
+  -fx-background-radius: 10px;
+  -fx-text-fill: white;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 15, 0, 0, 8);
+  -fx-translate-y: -2px;
+}
+
+.button:pressed {
+  -fx-effect: none;
+  -fx-translate-y: 0;
+}
+
+.label {
+  -fx-text-fill: white;
+  -fx-padding: 8px 16px;
+  -fx-background-radius: 5px;
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+  -fx-margin: 50px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 6, 0, 0, 4);
+}
+
+.css-pane {
+  -fx-background-color: #C0C0C0;
+  -fx-padding: 10;
+  -fx-border-color: #1A1A1A;
+  -fx-border-radius: 10;
+  -fx-background-radius: 10;
+  -fx-transition: background-color 0.3s ease;
+}
+
+.css-pane:hover {
+  -fx-background-color: #e7e7e7; /* Change color on hover */
+  -fx-scale-x: 1.04; /* Slightly scale up */
+  -fx-scale-y: 1.04; /* Slightly scale up */
+}

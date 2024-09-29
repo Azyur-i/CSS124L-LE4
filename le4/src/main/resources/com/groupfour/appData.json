@@ -1,37 +1,26 @@
 [
     {
-        "title": "Yoma Ipsem",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
+        "title": "Skeam",
+        "dev": "Valbe",
+        "star_rating": 4.7,
+        "downloads": "20M+",
+        "description":  "Steam is a video game digital distribution service and storefront managed by Valbe. ",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogodix.com%2Flogo%2F881398.png&f=1&nofb=1&ipt=8fecfff403eaf941804a0d983896858f248a5fb70b8049eb6e2ae2de36f12531&ipo=images"
     },
     {
-        "title": "Lorem Ipsum",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
+        "title": "Sbotify",
+        "dev": "Daniel Ek and Martin Lorentzon",
+        "star_rating": 3.1,
+        "downloads": "10M+",
+        "description":  "Spotify offers digital copyright restricted recorded audio content, including more than 100 million songs and 6 million podcast titles, from record labels and media companies.",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F016%2F716%2F458%2Foriginal%2Fspotify-icon-free-png.png&f=1&nofb=1&ipt=6f6d55d35bbe3e2a8dc44af1b79f4bdba36e900de596291ff55bb359d11144ca&ipo=images"
     },
     {
-        "title": "Yoma Ipsem",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
-    },
-    {
-        "title": "Lorem Ipsum",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
-    },
-    {
-        "title": "Lorem Ipsum",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
+        "title": "YouTuve",
+        "dev": "Gookle LLC",
+        "star_rating": 3.5,
+        "downloads": "500M+",
+        "description":  "YouTuve is an American online video sharing platform owned by Gookle. Accessible worldwide,",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F024%2F983%2F592%2Foriginal%2Fyoutube-logo-transparent-free-png.png&f=1&nofb=1&ipt=e39bf6a4a3a02fb1a61de6eac5e38d326dfbdce82261c08b6e4ad8014925ba5f&ipo=images"
     }
 ]

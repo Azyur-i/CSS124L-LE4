@@ -1,30 +1,26 @@
 [
     {
-        "title": "Yoma Ipsem",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
+        "title": "Balfur's Gate 5",
+        "dev": "Marian Studios",
+        "star_rating": 4.7,
+        "downloads": "8M+",
+        "description":  "Baldur's Gate 3 is a 2023 role-playing video game developed and published by Larian Studios.",
+        "image_url": "https://assets1.ignimgs.com/2019/06/08/baldurs-gate-3-button-02a-1559953190283.jpg"
     },
     {
-        "title": "Lorem Ipsum",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
+        "title": "Elder Ring",
+        "dev": "FromHardware",
+        "star_rating": 5.0,
+        "downloads": "66M+",
+        "description":  "Elder Ring is a 2022 action role-playing game developed by FromHardware.",
+        "image_url": "https://assets-prd.ignimgs.com/2021/06/12/elden-ring-button-03-1623460560664.jpg"
     },
     {
-        "title": "Yoma Ipsem",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
-    },
-    {
-        "title": "JOWARI DA: The Game",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
+        "title": "Bloons 7",
+        "dev": "Ninja Apple",
+        "star_rating": 4.2,
+        "downloads": "12M+",
+        "description":  "Bloons TD 6 is a 2018 tower defense game developed and published by Ninja Kiwi, where various monkeys pop balloons",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fplay-lh.googleusercontent.com%2F_X1BpC-otMswvnF20mcVHIOwCVFVU6l9ZK6VuiczGmVZhMd86LPe_HxED-n_FGcd1zlC&f=1&nofb=1&ipt=28cc2dba25dfc43f34f696241944bf07480a6ee509f1bc23b61fd1f7149c1a75&ipo=images"
     }
 ]

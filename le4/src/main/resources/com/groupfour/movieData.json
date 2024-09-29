@@ -1,30 +1,26 @@
 [
     {
-        "title": "Lorem Ipsum",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
+        "title": "Wohn Jick 1",
+        "dev": "Chad Stahelski",
+        "star_rating": 4.2,
+        "downloads": "20M+",
+        "description":  "After the death of his wife, former hitman John Wick is drawn back into the criminal underworld when a group of gangsters steal his car and kill his puppy, a final gift from his late wife. ",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-wixmp-ed30a86b8c4ca887773594c2.wixmp.com%2Fi%2F40eb3ade-91e8-48e4-9923-dc622562072f%2Fdf9u8jq-37da5f14-d6f3-4424-a575-dabfb99d067c.png%2Fv1%2Ffill%2Fw_512%2Ch_512%2Fjohn_wick_1__4__by_kahlanamnelle_df9u8jq-fullview.png&f=1&nofb=1&ipt=4284caf1dca0d939286202ad3f6724116c149e58dd438eaff19e8ecbb704f2d3&ipo=images"
     },
     {
-        "title": "Yoma Ipsem",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
+        "title": "Wohn Jick 2",
+        "dev": "Chad Stahelski",
+        "star_rating": 4.4,
+        "downloads": "19M+",
+        "description":  "In this sequel, John Wick is forced out of retirement by a former associate who seeks to seize control of an international assassins' guild.",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-wixmp-ed30a86b8c4ca887773594c2.wixmp.com%2Ff%2F6855f99a-529e-474b-be73-aad11412f2a1%2Fdbbct7a-f8fd64af-9a82-490a-ae02-bc7cae27ffbb.png%2Fv1%2Ffill%2Fw_512%2Ch_512%2Cstrp%2Fjohn_wick_chapter_2_movie_folder_icon_v3_by_zenoasis_dbbct7a-fullview.png%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvNjg1NWY5OWEtNTI5ZS00NzRiLWJlNzMtYWFkMTE0MTJmMmExXC9kYmJjdDdhLWY4ZmQ2NGFmLTlhODItNDkwYS1hZTAyLWJjN2NhZTI3ZmZiYi5wbmciLCJ3aWR0aCI6Ijw9NTEyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.K24gU0lBoK0nuftVkzsAzSTVF6FQfd3qf1kob_dNsAs&f=1&nofb=1&ipt=08a1f8c9b5a2d917e6355e8ba7c1ab0f0f63acc4410e713b43a7b4ba7b6527bc&ipo=images"
     },
     {
-        "title": "Lorem Ipsum",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
-    },
-    {
-        "title": "Lorem Ipsum",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
+        "title": "Wohn Jick 3",
+        "dev": "Chad Stahelski",
+        "star_rating": 4.3,
+        "downloads": "21M+",
+        "description":  "Following the events of the second film, John Wick is on the run after a $14 million bounty is placed on his head. ",
+        "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-wixmp-ed30a86b8c4ca887773594c2.wixmp.com%2Ff%2F5d608093-250f-4039-967f-ea8b3a36c56f%2Fdd9hmxn-f9a783e8-5974-40fe-80db-15ca0153200b.png%2Fv1%2Ffill%2Fw_894%2Ch_894%2Cstrp%2Fjohn_wick_3_parabellum_2019_movie_folder_icon_by_dead_pool213_dd9hmxn-pre.png%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzVkNjA4MDkzLTI1MGYtNDAzOS05NjdmLWVhOGIzYTM2YzU2ZlwvZGQ5aG14bi1mOWE3ODNlOC01OTc0LTQwZmUtODBkYi0xNWNhMDE1MzIwMGIucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.qYkaZ_OQ7BgWOKVkOI8mT-NPs6crUP3vYrPhuMjhy-Q&f=1&nofb=1&ipt=d86a111329e66d61a8c02ceb63be22d2e7e083e0813fdabad83f6656228b5836&ipo=images"
     }
 ]

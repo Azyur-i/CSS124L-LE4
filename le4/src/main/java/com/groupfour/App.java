@@ -1,9 +1,12 @@
 package com.groupfour;
 
 import javafx.application.Application;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
@@ -22,25 +25,30 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
+
         
-
-
         //Main 
         HBox root = new HBox();
-        scene = new Scene(root, 1280, 720);
-        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
+        scene = new Scene(root, 720, 720);
+        String css = this.getClass().getResource("style.css").toExternalForm();
+        scene.getStylesheets().add(css);
         stage.setScene(scene);
         stage.show();
 
         //UI Elements
-        VBox sideBar = new VBox();
+        VBox sideBar = new VBox(15);
+        sideBar.setAlignment(Pos.CENTER_LEFT);
         VBox mainVBox = new VBox();
         VBox gamesVBox = new VBox();
         VBox appsVBox = new VBox();
         VBox moviesVBox = new VBox();
-        Label label = new Label("PLACEHOLDER");
+        Label label = new Label("4Store");
 
-        label.getStyleClass().add("placeholder-label");
+        label.getStyleClass().add("css-label");
+        sideBar.getStyleClass().add("css-sidebar");
+        gamesVBox.getStyleClass().add("css-sidebar-item");
+        appsVBox.getStyleClass().add("css-sidebar-item");
+        moviesVBox.getStyleClass().add("css-sidebar-item");
         mainVBox.getStyleClass().add("mainVBox");
 
         Button gameBtn = new Button("Games");
@@ -77,7 +85,6 @@ public class App extends Application {
         sideBar.getChildren().addAll(label, gameBtn, appBtn, movieBtn);
         root.getChildren().addAll(sideBar, mainVBox);
 
-        mainVBox.getChildren().add(gamesVBox);
     }
 
     public void populateVbox(JsonNode node, VBox vbox,Stage stage){
@@ -89,8 +96,12 @@ public class App extends Application {
                 double starRating = element.get("star_rating").asDouble();
                 String downloads = element.get("downloads").asText();
                 String description = element.get("description").asText();
+                String imageUrl = element.get("image_url").asText();
 
                 GridPane infoPane = new GridPane();
+                ImageView imageView = new ImageView(new Image(imageUrl));
+                imageView.setFitHeight(100);
+                imageView.setFitWidth(100);
 
                 //Main Page Info
                 Label titleLabel = new Label(title);
@@ -118,26 +129,16 @@ public class App extends Application {
                 //Click event on info,  opens extended details page
                 infoPane.setOnMouseClicked(event -> {
 
-                    //First instance of this will error
-                    try{
-                    selectedPane.setStyle("-fx-background-color:#808080;"); //CSS Styling, 
-                    } catch (Exception e){
-                        System.out.println("First CLick");
-                    }
-
-
                     selectedPane = infoPane;
                     AnchorPane container = new AnchorPane();
                     HBox parentHBox = new HBox();
                     VBox infoVBox = new VBox();
-                    
-                    vbox.setStyle("-fx-background-color:#808080;"); //CSS Styling
-                    selectedPane.setStyle("-fx-background-color: #C0C0C0;"); //CSS Styling
-
-                    //**CSS Styling - Remove these at the end, just showed the variables you need to use
-
+                    Button returnBtn = new Button("Return");                    
+                    returnBtn.setOnMouseClicked(e -> {stage.setScene(scene);
+                        stage.show();
+                        });
                     infoVBox.getChildren().addAll(titleCopy, devCopy, rateCopy, dlCopy,descLabel);
-                    parentHBox.getChildren().addAll(vbox,infoVBox);
+                    parentHBox.getChildren().addAll(vbox,infoVBox, returnBtn);
                     container.getChildren().add(parentHBox);
                     Scene infoScene = new Scene(container, 1280, 720);
                     stage.setScene(infoScene);

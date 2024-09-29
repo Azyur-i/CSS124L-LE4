@@ -1,12 +1,5 @@
 [
     {
-        "title": "Yoma Ipsem",
-        "dev": "Lorem",
-        "star_rating": 4.0,
-        "downloads": "1M+",
-        "description":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum"
-    },
-    {
         "title": "Lorem Ipsum",
         "dev": "Lorem",
         "star_rating": 4.0,
